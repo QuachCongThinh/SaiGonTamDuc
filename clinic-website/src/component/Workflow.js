@@ -2,10 +2,10 @@ import React, { useEffect, useRef } from "react";
 import "../styles/Reset.scss";
 import "../styles/Workflow.scss";
 import bgwl from "../assets/blue-abstract-gradient-wave-wallpaper.webp";
-import c1 from "../assets/doctor-man-consulting-patient-while-filling-up-application-form-desk-hospital.webp";
-import c2 from "../assets/measuring-blood-pressure.webp";
-import c3 from "../assets/nurses-are-well-good-taken-care-elderly-woman-patients-hospital-bed-patients-feel-happiness-medical-healthcare-concept.webp";
-import c4 from "../assets/pretty-patient-physician-office.webp";
+import c1 from "../assets/b4.jpg.png";
+import c2 from "../assets/b2.jpg.png";
+import c3 from "../assets/b3.jpg.png";
+import c4 from "../assets/b1.jpg.png";
 import cross from "../assets/61792.png";
 
 const Workflow = () => {

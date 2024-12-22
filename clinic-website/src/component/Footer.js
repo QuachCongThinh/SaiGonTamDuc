@@ -88,7 +88,7 @@ const Footer = () => {
           <li>Khám, chữa bệnh</li>
           <li>Khám sức khỏe</li>
           <li>Chuẩn đoán hình ảnh</li>
-          <li>Vật lý trị liệu</li>
+          <li>Y học cổ truyền - Vật lý trị liệu</li>
         </ul>
         <div className="viewer">
           <img src={viewer} alt="Viewer" />

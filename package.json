@@ -1,0 +1,9 @@
+{
+"name": "clinic-project",
+  "version": "1.0.0",
+  "scripts": {
+    "start:clinic": "cd clinic-website && npm start",
+    "start:backend": "cd backend && nodemon server",
+    "start": "npm-run-all --parallel start:clinic start:backend"
+  }
+}

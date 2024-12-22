@@ -7,13 +7,13 @@ const Header = () => {
     <div className="header">
       <div className="container">
         <div className="infoHeader">
+          <div className="logo">
+            <img src={Logo} alt="Logo" />
+          </div>
           <p>
             Hotline khẩn cấp <br />
             <span>0914.066.178</span>
           </p>
-          <div className="logo">
-            <img src={Logo} alt="Logo"/>
-          </div>
           <div className="onlineConsultation">
             Tư vấn trực tuyến <br />
             <span>pkdksgtd@gmail.com</span>
