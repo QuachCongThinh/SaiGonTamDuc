@@ -17,8 +17,8 @@ function App() {
       <Difference />
       <Service />
       <Workflow />
-      <Comment />
       <Map />
+      <Comment />
       <Linked />
       <Footer />
       <ScrollToTop />
