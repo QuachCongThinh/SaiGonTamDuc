@@ -8,7 +8,6 @@ import slider3 from "../assets/sldie-3.jpg";
 import { IoIosArrowRoundForward } from "react-icons/io";
 const Banner = () => {
   var settings = {
-    centerMode: true,
     slidesToShow: 1,
     slidesToScroll: 1,
     dots: false,
@@ -41,7 +40,8 @@ const Banner = () => {
           <h4>ĐỊA CHỈ LIÊN HỆ</h4>
           <div className="content">
             <p>
-              Số 153A, Đường Nguyễn Tất Thành, Ấp Bà Điều, Xã Lý Văn Lâm, Tp.Cà Mau
+              Số 153A, Đường Nguyễn Tất Thành, Ấp Bà Điều, Xã Lý Văn Lâm, Tp.Cà
+              Mau
             </p>
             <button onClick={() => window.open(googleMapsUrl, "_blank")}>
               Xem bản đồ

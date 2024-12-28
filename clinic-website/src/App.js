@@ -8,6 +8,7 @@ import Workflow from "./component/Workflow";
 import Comment from "./component/Comment";
 import Linked from "./component/Linked";
 import Map from "./component/Map";
+// import News from "./component/News";
 import Footer from "./component/Footer";
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Service />
       <Workflow />
       <Map />
+      {/* <News /> */}
       <Comment />
       <Linked />
       <Footer />

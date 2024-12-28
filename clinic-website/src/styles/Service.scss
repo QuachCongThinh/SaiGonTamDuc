@@ -4,15 +4,12 @@
   .bg-service {
     position: relative;
     height: 750px;
-    display: flex; 
-    justify-content: center;  
-    align-items: center; 
-    img {
-      max-width: 100%;
-      width: 100%;
-      height: 750px;
-      object-fit: cover;
-    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../assets/high-angle-stethoscope-blue-background.webp');
+    background-size: cover;
+    background-position: center 0px; 
     .overlay {
       position: absolute;
       top: 0;
@@ -23,6 +20,7 @@
       pointer-events: none;
     }
   }
+  
   .text-service {
     position: absolute;
     top: 50px;
@@ -56,14 +54,7 @@
       width: 1000px;
       margin: 0 auto;
       .box {
-        // opacity: 0;
-        // transform: translateY(50px);
-        // transition: all 0.6s ease-out;
         text-align: center;
-        // &.visible {
-        //   opacity: 1;
-        //   transform: translateY(0);
-        // }
         img {
           transition: all 0.8s ease-in-out;
           width: 60px;

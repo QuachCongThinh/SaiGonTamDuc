@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import "../styles/Service.scss";
 import "../styles/Reset.scss";
-import bg from "../assets/high-angle-stethoscope-blue-background.webp";
 import ic1 from "../assets/icon-s1.png";
 import ic7 from "../assets/icon-s7.png";
 import ic3 from "../assets/icon-s3.png";
@@ -13,31 +12,23 @@ const Service = () => {
   const serviceRef = useRef([]);
 
   useEffect(() => {
-    const options = {
-      root: null,
-      threshold: 0.1,
+    const handleScroll = () => {
+      const scrollTop = window.pageYOffset;
+      const bgService = document.querySelector(".bg-service");
+      if (bgService) {
+        bgService.style.backgroundPosition = `center ${scrollTop * 0.5}px`;
+      }
     };
 
-    const callback = (entries) => {
-      entries.forEach((entry, index) => {
-        if (entry.isIntersecting) {
-          setTimeout(() => {
-            entry.target.classList.add("visible");
-          }, index * 200);
-        }
-      });
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
     };
-
-    const observer = new IntersectionObserver(callback, options);
-    serviceRef.current.forEach((el) => el && observer.observe(el));
-
-    return () => observer.disconnect();
   }, []);
 
   return (
     <div className="service">
       <div className="bg-service">
-        <img src={bg} alt="Service" />
         <div className="overlay"></div>
       </div>
       <div className="text-service">

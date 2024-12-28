@@ -54,7 +54,8 @@ const Comment = () => {
   ];
   return (
     <div className="comment">
-      <h2>Nhận xét từ khách hàng</h2>
+      <p>Xem họ nói gì?</p>
+      <h2>Khách hàng của chúng tôi</h2>
       <div className="note">
         <img src={note1} alt="note1" className="note1" />
         <img src={note2} alt="note2" className="note2" />
