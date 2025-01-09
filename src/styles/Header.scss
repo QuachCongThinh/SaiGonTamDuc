@@ -1,0 +1,192 @@
+.header {
+  max-width: 100%;
+  width: 100%;
+  background-color: rgba(245, 245, 245, 0.9);
+  border-radius: 0 0 15px 15px;
+  box-shadow: 1px 1px 1px 0px rgba(150, 150, 150, 0.5);
+  height: auto;
+  .container {
+    .infoHeader {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 0;
+      .logo {
+        img {
+          max-width: 100%;
+          width: 140px;
+        }
+      }
+      p {
+        order: -1;
+        color: #0095a0;
+        font-weight: 500;
+        span {
+          font-size: 22px;
+          color: #02575f;
+          font-weight: 800;
+        }
+      }
+      .onlineConsultation {
+        color: #0095a0;
+        font-weight: 500;
+        span {
+          font-size: 22px;
+          color: #02575f;
+          font-weight: 800;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 768px) and (min-width: 427px) {
+  .header {
+    width: 100%;
+    overflow-x: hidden;
+    .container {
+      max-width: 100%;
+
+      .infoHeader {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 10px 0;
+        .logo {
+          width: 110px;
+        }
+        p {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          font-size: 15px;
+          span {
+            font-size: 17px;
+          }
+        }
+        .onlineConsultation {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          font-size: 15px;
+          span {
+            font-size: 17px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 426px) and (min-width: 376px) {
+  .header {
+    width: 100%;
+    overflow-x: hidden;
+    .container {
+      max-width: 100%;
+      .infoHeader {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 10px 0;
+        .logo {
+          order: -1;
+          width: 90px;
+        }
+        p {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          font-size: 13px;
+          span {
+            font-size: 15px;
+          }
+        }
+        .onlineConsultation {
+          padding-right: 6px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          font-size: 13px;
+          span {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 376px) and (min-width: 321px) {
+  .header {
+    width: 100%;
+    overflow-x: hidden;
+    .container {
+      max-width: 100%;
+      .infoHeader {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 10px 10px;
+        .logo {
+          order: -1;
+          width: 80px;
+        }
+        p {
+          display: flex;
+          flex-direction: column;
+          justify-content: end;
+          align-items: center;
+          font-size: 12px;
+          span {
+            font-size: 14px;
+          }
+        }
+        .onlineConsultation {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          font-size: 12px;
+          span {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 320px) {
+  .header {
+    width: 100%;
+    overflow-x: hidden;
+    .container {
+      max-width: 100%;
+      .infoHeader {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 10px;
+        .logo {
+          order: -1;
+          width: 90px;
+        }
+        p {
+          display: flex;
+          text-align: center;
+          font-size: 11px;
+          span {
+            margin: 0 0 0 80px;
+            font-size: 13px;
+          }
+        }
+        .onlineConsultation {
+          display: flex;
+          margin-top: 5px;
+          text-align: center;
+          font-size: 11px;
+          span {
+            margin: 0 0 0 21px;
+            font-size: 13px;
+          }
+        }
+      }
+    }
+  }
+}

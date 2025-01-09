@@ -1,0 +1,224 @@
+.service {
+  margin-top: -5px;
+  position: relative;
+  .bg-service {
+    position: relative;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../assets/high-angle-stethoscope-blue-background.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.756);
+      pointer-events: none;
+    }
+  }
+
+  .text-service {
+    position: absolute;
+    top: 50px;
+    max-width: 100%;
+    width: 1000px;
+    margin: 0 auto;
+    left: 50%;
+    transform: translateX(-50%);
+    h2 {
+      margin-bottom: 10px;
+      text-align: center;
+      font-size: 35px;
+      font-weight: 700;
+      color: #69dbf8;
+    }
+    h3 {
+      color: #fff;
+      font-weight: 300;
+      font-size: 18px;
+      width: 800px;
+      text-align: center;
+      margin-bottom: 50px;
+      margin-left: 103px;
+    }
+    .list-service {
+      display: flex;
+      align-items: start;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      max-width: 100%;
+      width: 1000px;
+      margin: 0 auto;
+      .box {
+        text-align: center;
+        img {
+          transition: all 0.8s ease-in-out;
+          width: 60px;
+          height: auto;
+        }
+        p {
+          margin-top: 14px;
+          font-weight: 600;
+          font-size: 20px;
+          cursor: default;
+          color: #fff;
+        }
+        h4 {
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 23px;
+          margin-top: 14px;
+          color: #fff;
+          text-align: justify;
+          cursor: default;
+          width: 300px;
+          text-align: center;
+        }
+        &:hover img {
+          transform: rotateY(180deg);
+        }
+      }
+      &:last-child {
+        margin-top: 40px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 426px) and (min-width: 376px) {
+  .service {
+    .bg-service {
+      width: 100%;
+      height: auto;
+      min-height: 1650px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    .text-service {
+      h2 {
+        font-size: 25px;
+        text-align: center;
+      }
+      h3 {
+        margin: 0 auto;
+        width: 380px;
+        max-width: 100%;
+        text-align: center;
+        font-size: 15px;
+        padding-bottom: 40px;
+      }
+      .list-service {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .box {
+          margin-bottom: 30px;
+        }
+        &:last-child {
+          margin-top: 0px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 376px) and (min-width: 321px) {
+  .service {
+    .bg-service {
+      width: 100%;
+      height: auto;
+      min-height: 1540px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center !important;
+    }
+    .text-service {
+      h2 {
+        font-size: 21px;
+        text-align: center;
+      }
+      h3 {
+        margin: 0 auto;
+        width: 380px;
+        max-width: 100%;
+        text-align: center;
+        font-size: 13px;
+        padding-bottom: 40px;
+      }
+      .list-service {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .box {
+          margin-bottom: 30px;
+          img {
+            width: 57px;
+          }
+          p {
+            font-size: 18px;
+          }
+          h4 {
+            font-size: 13px;
+          }
+        }
+        &:last-child {
+          margin-top: 0px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 320px) {
+  .service {
+    .bg-service {
+      width: 100%;
+      height: auto;
+      min-height: 1540px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center !important;
+    }
+    .text-service {
+      h2 {
+        font-size: 19px;
+        text-align: center;
+      }
+      h3 {
+        margin: 0 auto;
+        width: 380px;
+        max-width: 100%;
+        text-align: center;
+        font-size: 12px;
+        padding: 0 10px 20px 10px;
+        line-height: 15px;
+      }
+      .list-service {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .box {
+          margin-bottom: 30px;
+          img {
+            width: 57px;
+          }
+          p {
+            font-size: 16px;
+          }
+          h4 {
+            max-width: 100%;
+            width: 250px;
+            font-size: 12px;
+          }
+        }
+        &:last-child {
+          margin-top: 0px;
+        }
+      }
+    }
+  }
+}
