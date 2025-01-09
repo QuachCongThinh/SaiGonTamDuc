@@ -12,11 +12,15 @@ const Header = () => {
           </div>
           <p>
             Hotline khẩn cấp <br />
-            <span>0914.066.178</span>
+            <span>
+              <a href="tel:0914066178">0914.066.178</a>
+            </span>
           </p>
           <div className="onlineConsultation">
             Tư vấn trực tuyến <br />
-            <span>pkdksgtd@gmail.com</span>
+            <span>
+              <a href="mailto:pkdksgtd@gmail.com">pkdksgtd@gmail.com</a>
+            </span>
           </div>
         </div>
       </div>
