@@ -150,7 +150,7 @@
     }
   }
 }
-@media only screen and (max-width: 768px) and (min-width: 427px) {
+@media only screen and (max-width: 768px) and (min-width: 426px) {
   .banner {
     .text-banner {
       position: absolute;
@@ -170,15 +170,15 @@
     }
     .form {
       z-index: 1;
-      display: block;
       top: 318px;
       left: 50%;
       transform: translateX(-50%);
       .workTime {
         border-radius: 8px;
         max-width: 100%;
-        width: 370px;
-        height: 170px;
+        margin-right: 5px;
+        width: 350px;
+        height: 190px;
         background-color: rgb(61, 104, 137);
         h4 {
           font-size: 23px;
@@ -215,11 +215,11 @@
         }
       }
       .address {
+        margin-left: 5px;
         border-radius: 8px;
-        margin-top: 5px;
         position: relative;
         max-width: 100%;
-        width: 370px;
+        width: 350px;
         height: 190px;
         background-color: rgb(78, 141, 189);
         h4 {
@@ -245,7 +245,7 @@
     .slick-slider {
       position: relative;
       max-width: 100%;
-      height: 650px;
+      height: 550px;
       img {
         max-width: 100%;
         width: 100%;

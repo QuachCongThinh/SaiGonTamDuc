@@ -23,6 +23,8 @@ const Service = () => {
           bgService.style.backgroundPosition = "center center";
         } else if (window.innerWidth <= 426) {
           bgService.style.backgroundPosition = `center ${scrollTop * 0}px`;
+        } else if (window.innerWidth <= 768) {
+          bgService.style.backgroundPosition = "center center";
         } else {
           bgService.style.backgroundPosition = `center ${scrollTop * -0.1}px`;
         }

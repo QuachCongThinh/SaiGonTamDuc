@@ -90,6 +90,43 @@
     }
   }
 }
+@media only screen and (max-width: 768px) and (min-width: 426px) {
+  .service {
+    .bg-service {
+      width: 100%;
+      height: auto;
+      min-height: 1230px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    .text-service {
+      h2 {
+        font-size: 27px;
+        text-align: center;
+      }
+      h3 {
+        margin: 0 auto;
+        width: 560px;
+        max-width: 100%;
+        text-align: center;
+        font-size: 15px;
+        padding-bottom: 40px;
+      }
+      .list-service {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        .box {
+          margin-bottom: 30px;
+        }
+        &:last-child {
+          margin-top: 0px;
+        }
+      }
+    }
+  }
+}
 @media only screen and (max-width: 426px) and (min-width: 376px) {
   .service {
     .bg-service {
