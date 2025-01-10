@@ -153,7 +153,7 @@
       }
     }
     .service-difference {
-      padding: 29px 0 0 0;
+      padding: 30px 0 0 0;
       ul {
         text-align: center;
         padding: 0;
@@ -207,6 +207,7 @@
       padding: 0 0 0 0;
       ul {
         text-align: center;
+        padding: 2px 50px;
         li {
           list-style: none;
           margin-bottom: 20px;
@@ -257,6 +258,7 @@
       padding: 0 0 0 0;
       ul {
         text-align: center;
+        padding: 2px 43px;
         li {
           list-style: none;
           margin-bottom: 20px;
@@ -306,6 +308,18 @@
         h2 {
           margin-bottom: 15px;
           font-size: 19px;
+        }
+        .social {
+          .facebook {
+            img {
+              width: 40px;
+            }
+          }
+          .tiktok {
+            img {
+              width: 48px;
+            }
+          }
         }
       }
     }
