@@ -88,17 +88,26 @@
     }
   }
   .service-difference {
-    padding: 100px 30px 0 0;
+    padding: 45px 30px 0 0;
     h2 {
       text-align: center;
       margin-bottom: 25px;
       color: rgb(61, 104, 137);
     }
     ul {
-      padding: 2px 133px;
+      padding: 2px 70px;
       li {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
       }
+    }
+  }
+  .fanpage {
+    position: absolute;
+    right: 105px;
+    bottom: 35px;
+    iframe {
+      width: 343px;
+      height: 133px;
     }
   }
 }
@@ -107,7 +116,7 @@
     display: grid;
     grid-template-columns: 25% 37% 37%;
     justify-content: space-between;
-    height: 340px;
+    height: 380px;
     border-radius: 30px 30px 0 0px;
     .logo {
       img {
@@ -166,6 +175,15 @@
         font-size: 18px;
       }
     }
+    .fanpage {
+      position: absolute;
+      right: 20px;
+      bottom: 20px;
+      iframe {
+        width: 255px;
+        height: 130px;
+      }
+    }
   }
 }
 @media only screen and (max-width: 426px) and (min-width: 376px) {
@@ -173,7 +191,7 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     justify-content: center;
-    height: 770px;
+    height: 924px;
     border-radius: 40px 40px 0 0px;
     .logo {
       img {
@@ -185,7 +203,7 @@
       }
     }
     .contact {
-      padding: 180px 0 0 0;
+      padding: 0 0 0 0;
       .info-contact {
         h2 {
           font-size: 20px;
@@ -198,6 +216,7 @@
         }
       }
       .social-media {
+        margin-bottom: -169px;
         h2 {
           font-size: 20px;
         }
@@ -217,6 +236,15 @@
         font-size: 20px;
       }
     }
+    .fanpage {
+      position: absolute;
+      right: 40px;
+      bottom: 45px;
+      iframe {
+        width: 345px;
+        height: 130px;
+      }
+    }
   }
 }
 @media only screen and (max-width: 376px) and (min-width: 321px) {
@@ -224,7 +252,7 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     justify-content: center;
-    height: 770px;
+    height: 920px;
     border-radius: 40px 40px 0 0px;
     .logo {
       img {
@@ -236,7 +264,7 @@
       }
     }
     .contact {
-      padding: 180px 0 0 0;
+      padding: 17px 0 0 0;
       .info-contact {
         h2 {
           font-size: 20px;
@@ -249,6 +277,7 @@
         }
       }
       .social-media {
+        margin-bottom: -160px;
         h2 {
           font-size: 20px;
         }
@@ -268,6 +297,15 @@
         font-size: 20px;
       }
     }
+    .fanpage {
+      position: absolute;
+      right: 13px;
+      bottom: 35px;
+      iframe {
+        width: 345px;
+        height: 130px;
+      }
+    }
   }
 }
 @media only screen and (max-width: 320px) {
@@ -275,7 +313,7 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     justify-content: center;
-    height: 710px;
+    height: 810px;
     border-radius: 30px 30px 0 0px;
     .logo {
       img {
@@ -287,7 +325,7 @@
       }
     }
     .contact {
-      padding: 140px 0 0 0;
+      padding: 0 0 0 0;
       .info-contact {
         h2 {
           margin-bottom: 15px;
@@ -305,6 +343,7 @@
         }
       }
       .social-media {
+        margin-bottom: -140px;
         h2 {
           margin-bottom: 15px;
           font-size: 19px;
@@ -337,6 +376,15 @@
         margin-bottom: 15px;
         padding: 0 19px;
         font-size: 19px;
+      }
+    }
+    .fanpage {
+      position: absolute;
+      right: 13px;
+      bottom: 15px;
+      iframe {
+        width: 295px;
+        height: 130px;
       }
     }
   }

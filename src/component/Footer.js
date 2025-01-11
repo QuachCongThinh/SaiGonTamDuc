@@ -1,4 +1,3 @@
-// import React, { useEffect, useState } from "react";
 import "../styles/Reset.scss";
 import "../styles/Footer.scss";
 import logoFooter from "../assets/Logo.png";
@@ -7,35 +6,8 @@ import phone from "../assets/call.png";
 import email from "../assets/email.png";
 import facebook from "../assets/facebook.png";
 import tiktok from "../assets/tik-tok.png";
-// import viewer from "../assets/view.png";
 
 const Footer = () => {
-  // const [viewCount, setViewCount] = useState(0);
-
-  // useEffect(() => {
-  //   const updateViewCount = async () => {
-  //     try {
-  //       await fetch("http://localhost:5000/api/increment-view", {
-  //         method: "POST",
-  //         headers: {
-  //           "Content-Type": "application/json",
-  //         },
-  //       });
-
-  //       const fetchResponse = await fetch(
-  //         "http://localhost:5000/api/view-count"
-  //       );
-  //       const fetchData = await fetchResponse.json();
-
-  //       setViewCount(fetchData.viewCount);
-  //     } catch (error) {
-  //       console.error("Failed to update view count:", error);
-  //     }
-  //   };
-
-  //   updateViewCount();
-  // }, []);
-
   return (
     <div className="footer">
       <div className="logo">
@@ -90,10 +62,17 @@ const Footer = () => {
           <li>Chuẩn đoán hình ảnh</li>
           <li>Y học cổ truyền - Vật lý trị liệu</li>
         </ul>
-        {/* <div className="viewer">
-          <img src={viewer} alt="Viewer" />
-          <p>Lượt truy cập: {viewCount}</p>
-        </div> */}
+      </div>
+      <div className="fanpage">
+        <iframe
+          title="Facebook Fanpage"
+          src="https://www.facebook.com/plugins/page.php?href=https://www.facebook.com/profile.php?id=61560007596752&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+          style={{ border: "none", overflow: "hidden" }}
+          scrolling="no"
+          frameBorder="0"
+          allowFullScreen={true}
+          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+        ></iframe>
       </div>
     </div>
   );
