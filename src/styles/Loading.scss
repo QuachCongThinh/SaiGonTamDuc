@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+.loading {
+  display: flex;
+  position: absolute;
+  max-width: 100%;
+  height: auto;
+  animation: fadeIn 2s ease-in-out;
+  justify-content: center;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-70%);
+  transition: opacity 1s ease-in-out, visibility 1s ease-in-out;
+  opacity: 1;
+  visibility: visible;
+  &.fade-out {
+    opacity: 0;
+    visibility: hidden;
+  }
+  .logo-container {
+    position: absolute;
+    width: 180px;
+    animation: scale-in-hor-center 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+      both;
+    .logo-loading {
+      width: 100%;
+      height: auto;
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: scale(1);
+      animation: scaleUp 2.5s ease-in-out;
+    }
+
+    @keyframes scale-in-hor-center {
+      0% {
+        transform: scaleX(0);
+        filter: blur(12px);
+        opacity: 0;
+      }
+      100% {
+        transform: scaleX(1);
+        filter: blur(0px);
+        opacity: 1;
+      }
+    }
+  }
+  .text-container {
+    text-align: center;
+    margin-top: 200px;
+    .loading-text {
+      width: 100%;
+      font-size: 45px;
+      font-weight: normal;
+      font-family: "Dancing Script", serif;
+      font-optical-sizing: auto;
+      color: #005f66;
+      animation: focus-in-expand 2s both;
+    }
+    @keyframes focus-in-expand {
+      0% {
+        letter-spacing: -0.5em;
+        filter: blur(12px);
+        opacity: 0;
+      }
+      100% {
+        filter: blur(0px);
+        opacity: 1;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 768px) and (min-width: 426px) {
+  .loading {
+    .text-container {
+      .loading-text {
+        font-size: 40px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 426px) and (min-width: 376px) {
+  .loading {
+    .text-container {
+      .loading-text {
+        font-size: 40px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 376px) and (min-width: 321px) {
+  .loading {
+    .text-container {
+      .loading-text {
+        font-size: 40px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 320px) {
+  .loading {
+    .text-container {
+      .loading-text {
+        font-size: 35px;
+      }
+    }
+  }
+}
