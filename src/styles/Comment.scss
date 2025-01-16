@@ -4,13 +4,13 @@
     text-align: center;
     font-size: 25px;
     font-weight: 500;
-    color: #11ceae;
+    color: #0fb499;
   }
   h2 {
     text-align: center;
     font-size: 30px;
     font-weight: 700;
-    color: #3d6889;
+    color: rgb(61, 104, 137);
     margin-bottom: 40px;
   }
   .note {
@@ -39,8 +39,9 @@
     border-radius: 50px 50px 50px 50px;
     margin: 0 auto;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    background-color: #f3f3f36d;
+    background-color: #f3f3f3ea;
     overflow: hidden;
+    z-index: 1;
     .text {
       position: relative;
       text-align: center;
@@ -90,7 +91,7 @@
 }
 @media only screen and (max-width: 768px) and (min-width: 426px) {
   .comment {
-    margin: 40px 0 20px 0;
+    margin: 40px 0 50px 0;
     p {
       font-size: 21px;
     }
@@ -110,7 +111,7 @@
         width: 30px;
         top: 278px;
         left: 82%;
-        z-index: 1;
+        z-index: 2;
       }
     }
     .frame {
@@ -165,7 +166,7 @@
 }
 @media only screen and (max-width: 426px) and (min-width: 376px) {
   .comment {
-    margin: 40px 0 20px 0;
+    margin: 40px 0 50px 0;
     p {
       font-size: 20px;
     }
@@ -185,7 +186,7 @@
         width: 30px;
         top: 278px;
         left: 82%;
-        z-index: 1;
+        z-index: 2;
       }
     }
     .frame {
@@ -228,7 +229,7 @@
         .text-comment {
           max-width: 100%;
           margin-top: 20px;
-          width: 245px;
+          width: 236px;
           position: absolute;
           left: 50%;
           transform: translateX(-50%);
@@ -240,7 +241,7 @@
 }
 @media screen and (max-width: 376px) and (min-width: 321px) {
   .comment {
-    margin: 40px 0 20px 0;
+    margin: 40px 0 50px 0;
     p {
       font-size: 20px;
     }
@@ -260,7 +261,7 @@
         width: 28px;
         top: 260px;
         left: 82%;
-        z-index: 1;
+        z-index: 2;
       }
     }
     .frame {
@@ -318,7 +319,7 @@
 }
 @media only screen and (max-width: 320px) {
   .comment {
-    margin: 40px 0 20px 0;
+    margin: 40px 0 50px 0;
     p {
       font-size: 19px;
     }
@@ -338,7 +339,7 @@
         width: 28px;
         top: 230px;
         left: 82%;
-        z-index: 1;
+        z-index: 2;
       }
     }
     .frame {

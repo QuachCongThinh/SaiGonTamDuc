@@ -8,8 +8,8 @@ import Service from "./component/Service";
 import Workflow from "./component/Workflow";
 import Comment from "./component/Comment";
 import Linked from "./component/Linked";
-import Map from "./component/Map";
-// import Albums from "./component/Albums";
+import Video from "./component/Video";
+import Albums from "./component/Albums";
 // import News from "./component/News";
 import Loading from "./component/Loading";
 import Footer from "./component/Footer";
@@ -37,9 +37,9 @@ function App() {
           <Difference />
           <Service />
           <Workflow />
-          {/* <Albums /> */}
-          <Map />
+          <Albums />
           <Comment />
+          <Video />
           {/* <News /> */}
           <Linked />
           <Footer />
