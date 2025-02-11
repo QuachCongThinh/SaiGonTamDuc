@@ -10,7 +10,7 @@ import Comment from "./component/Comment";
 import Linked from "./component/Linked";
 import Video from "./component/Video";
 import Albums from "./component/Albums";
-// import News from "./component/News";
+import News from "./component/News";
 import Loading from "./component/Loading";
 import Footer from "./component/Footer";
 function App() {
@@ -40,7 +40,7 @@ function App() {
           <Albums />
           <Comment />
           <Video />
-          {/* <News /> */}
+          <News />
           <Linked />
           <Footer />
           <ScrollToTop />

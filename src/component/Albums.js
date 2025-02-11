@@ -7,16 +7,15 @@ import img3 from "../assets/all1.jpg";
 import img4 from "../assets/bs.png";
 import img5 from "../assets/1.png";
 import img6 from "../assets/z6216541803096_efc242297120caf5cb771f6c22374a43.png";
+import img7 from "../assets/tt.jpg";
 const Albums = () => {
   var settings = {
     slidesToShow: 1,
     slidesToScroll: 1,
-    waitForAnimate: false,
     fade: true,
-    dots: false,
     speed: 1000,
     autoplay: true,
-    autoplaySpeed: 3400,
+    autoplaySpeed: 3000,
     arrows: false,
   };
 
@@ -29,12 +28,9 @@ const Albums = () => {
         <div className="frame">
           <div className="image">
             <Slider {...settings}>
-              <img src={img1} alt="Slider" />
-              <img src={img2} alt="Slider" />
-              <img src={img3} alt="Slider" />
-              <img src={img4} alt="Slider" />
-              <img src={img5} alt="Slider" />
-              <img src={img6} alt="Slider" />
+              {[img1, img2, img3, img4, img5, img6, img7].map((img, i) => (
+                <img key={i} src={img} alt="Slider" />
+              ))}
             </Slider>
           </div>
         </div>
