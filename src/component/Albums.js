@@ -8,6 +8,7 @@ import img4 from "../assets/bs.png";
 import img5 from "../assets/1.png";
 import img6 from "../assets/z6216541803096_efc242297120caf5cb771f6c22374a43.png";
 import img7 from "../assets/tt.jpg";
+import img8 from "../assets/ksk.jpg";
 const Albums = () => {
   var settings = {
     slidesToShow: 1,
@@ -28,7 +29,7 @@ const Albums = () => {
         <div className="frame">
           <div className="image">
             <Slider {...settings}>
-              {[img1, img2, img3, img4, img5, img6, img7].map((img, i) => (
+              {[img1, img2, img3, img4, img5, img6, img7, img8].map((img, i) => (
                 <img key={i} src={img} alt="Slider" />
               ))}
             </Slider>
