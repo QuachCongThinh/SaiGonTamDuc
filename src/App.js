@@ -13,6 +13,7 @@ import Albums from "./component/Albums";
 import News from "./component/News";
 import Loading from "./component/Loading";
 import Footer from "./component/Footer";
+import { Helmet } from "react-helmet";
 function App() {
   const [isLoading, setIsLoading] = useState(true);
   const [fadeOut, setFadeOut] = useState(false);
@@ -28,6 +29,30 @@ function App() {
   }, []);
   return (
     <div className="App">
+      <Helmet>
+        <title>
+          Phòng Khám Đa Khoa Sài Gòn Tâm Đức | Khám Chữa Bệnh Uy Tín
+        </title>
+        <meta
+          name="description"
+          content="Phòng khám đa khoa Sài Gòn Tâm Đức - Dịch vụ khám bệnh chất lượng cao, bác sĩ giỏi, tận tâm."
+        />
+        <meta
+          name="keywords"
+          content="Phòng khám đa khoa Sài Gòn Tâm Đức"
+        />
+        <meta name="robots" content="index, follow" />
+        <meta
+          property="og:title"
+          content="Phòng Khám Đa Khoa Sài Gòn Tâm Đức"
+        />
+        <meta
+          property="og:description"
+          content="Sức khỏe của bạn - Trách nhiệm của chúng tôi"
+        />
+        <meta property="og:url" content="http://pkdksgtamduc.com/" />
+        <meta property="og:type" content="website" />
+      </Helmet>
       {isLoading ? (
         <Loading />
       ) : (

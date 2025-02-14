@@ -9,21 +9,26 @@
   <meta name="description" content="Web site created using create-react-app" />
   <script>
     document.addEventListener("DOMContentLoaded", function () {
-      const text = "Phòng khám đa khoa Sài Gòn Tâm Đức - ";
+      const text = "Phòng khám đa khoa Sài Gòn Tâm Đức - Sức khỏe của bạn, trách nhiệm của chúng tôi";
+      const resetText = "Phòng khám đa khoa Sài Gòn Tâm Đức - Sức khỏe của bạn, trách nhiệm của chúng tôi"; 
       let position = 0;
 
       function scrollTitle() {
-        document.title = text.slice(position) + text.slice(0, position);
-        position = (position + 1) % text.length;
-        if (position === text.length - 3) {
+        if (position < text.length) {
+          document.title = text.slice(position) + text.slice(0, position);
+          position++;
+          setTimeout(scrollTitle, 150);
+        } else {
+          document.title = resetText; 
           position = 0;
+          setTimeout(scrollTitle, 1000); 
         }
-        setTimeout(scrollTitle, 150);
       }
 
       scrollTitle();
     });
   </script>
+
 </head>
 
 <body>
