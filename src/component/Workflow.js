@@ -2,10 +2,10 @@ import React, { useEffect, useRef } from "react";
 import "../styles/Reset.scss";
 import "../styles/Workflow.scss";
 import bgwl from "../assets/blue-abstract-gradient-wave-wallpaper.webp";
-import c1 from "../assets/b4.jpg.png";
-import c2 from "../assets/b2.jpg.png";
-import c3 from "../assets/z6229764593682_b98a59423c5baae833701f945ce56924.jpg";
-import c4 from "../assets/b1.jpg.png";
+import c1 from "../assets/b4.jpg_8_11zon.webp";
+import c2 from "../assets/b2.jpg_7_11zon.webp";
+import c3 from "../assets/z6229764593682_b98a59423c5baae833701f945ce56924_51_11zon.webp";
+import c4 from "../assets/b1.jpg_6_11zon.webp";
 import cross from "../assets/61792.png";
 
 const Workflow = () => {

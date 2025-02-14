@@ -1,10 +1,10 @@
 import React from "react";
 import "../styles/News.scss";
 import Slider from "react-slick";
-import new1 from "../assets/new1.jpg";
-import new2 from "../assets/new2.jpg";
-import new3 from "../assets/new3.jpg";
-import new4 from "../assets/new4.jpg";
+import new1 from "../assets/new1_35_11zon.webp";
+import new2 from "../assets/new2_36_11zon.webp";
+import new3 from "../assets/new3_37_11zon.webp";
+import new4 from "../assets/new4_38_11zon.webp";
 
 const News = () => {
   var settings = {

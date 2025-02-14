@@ -2,9 +2,9 @@ import React from "react";
 import "../styles/Banner.scss";
 import "../styles/Reset.scss";
 import Slider from "react-slick";
-import slider1 from "../assets/slide-1.jpg";
-import slider2 from "../assets/slide-2.jpg";
-import slider3 from "../assets/sldie-3.jpg";
+import slider1 from "../assets/slide-1_41_11zon.webp";
+import slider2 from "../assets/slide-2_42_11zon.webp";
+import slider3 from "../assets/sldie-3_40_11zon.webp";
 import { IoIosArrowRoundForward } from "react-icons/io";
 const Banner = () => {
   var settings = {

@@ -1,14 +1,14 @@
 import React, { useRef } from "react";
 import "../styles/Albums.scss";
 import Slider from "react-slick";
-import img1 from "../assets/all.png";
-import img2 from "../assets/BGD.jpeg";
-import img3 from "../assets/all1.jpg";
-import img4 from "../assets/bs.png";
-import img5 from "../assets/1.png";
-import img6 from "../assets/z6216541803096_efc242297120caf5cb771f6c22374a43.png";
-import img7 from "../assets/tt.jpg";
-import img8 from "../assets/ksk.jpg";
+import img1 from "../assets/all_4_11zon.webp";
+import img2 from "../assets/BGD_9_11zon.webp";
+import img3 from "../assets/all1_5_11zon.webp";
+import img4 from "../assets/bs_12_11zon.webp";
+import img5 from "../assets/1_1_11zon.webp";
+import img6 from "../assets/z6216541803096_efc242297120caf5cb771f6c22374a43_50_11zon.webp";
+import img7 from "../assets/tt_44_11zon.webp";
+import img8 from "../assets/ksk_31_11zon.webp";
 const Albums = () => {
   const sliderRef = useRef(null);
   var settings = {
