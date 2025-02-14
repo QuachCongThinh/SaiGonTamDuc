@@ -1,4 +1,4 @@
-import logo from "../assets/Logo_33_11zon.webp";
+import logo from "../assets/Logo.png";
 import "../styles/Loading.scss";
 const Loading = ({ fadeOut }) => {
   return (

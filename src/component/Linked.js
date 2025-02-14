@@ -1,8 +1,8 @@
 import React from "react";
 import "../styles/Linked.scss";
 import "../styles/Reset.scss";
-import bhxh from "../assets/bhxh_10_11zon.webp";
-import soyt from "../assets/head_16_11zon.webp";
+import bhxh from "../assets/bhxh.png";
+import soyt from "../assets/head.png";
 const Linked = () => {
   return (
     <div className="linked">

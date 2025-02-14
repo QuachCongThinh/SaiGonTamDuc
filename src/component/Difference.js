@@ -2,12 +2,12 @@ import React, { useEffect, useRef } from "react";
 import "../styles/Difference.scss";
 import "../styles/Reset.scss";
 import background from "../assets/medical-physician-doctor-man_34_11zon.webp";
-import icon1 from "../assets/icon-c1_18_11zon.webp";
-import icon2 from "../assets/icon-c2_19_11zon.webp";
-import icon3 from "../assets/icon-c3_20_11zon.webp";
-import icon4 from "../assets/icon-c4_21_11zon.webp";
-import icon5 from "../assets/icon-c5_22_11zon.webp";
-import icon6 from "../assets/icon-c6_23_11zon.webp";
+import icon1 from "../assets/icon-c1.png";
+import icon2 from "../assets/icon-c2.png";
+import icon3 from "../assets/icon-c3.png";
+import icon4 from "../assets/icon-c4.png";
+import icon5 from "../assets/icon-c5.png";
+import icon6 from "../assets/icon-c6.png";
 
 const Difference = () => {
   const textRef = useRef(null);
