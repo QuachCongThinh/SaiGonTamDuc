@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import "../styles/Albums.scss";
 import Slider from "react-slick";
 import img1 from "../assets/all.png";
@@ -10,13 +10,17 @@ import img6 from "../assets/z6216541803096_efc242297120caf5cb771f6c22374a43.png"
 import img7 from "../assets/tt.jpg";
 import img8 from "../assets/ksk.jpg";
 const Albums = () => {
+  const sliderRef = useRef(null);
   var settings = {
     slidesToShow: 1,
     slidesToScroll: 1,
     fade: true,
     speed: 600,
     autoplay: true,
-    autoplaySpeed: 2700,
+    autoplaySpeed: 2500,
+    arrows: false,
+    draggable: false,
+    swipe: false,
   };
 
   return (
@@ -27,10 +31,18 @@ const Albums = () => {
       <div className="slideImage">
         <div className="frame">
           <div className="image">
-            <Slider {...settings}>
-              {[img1, img2, img3, img4, img5, img6, img7, img8].map((img, i) => (
-                <img key={i} src={img} alt="Slider" />
-              ))}
+            <Slider ref={sliderRef} {...settings}>
+              {[img1, img2, img3, img4, img5, img6, img7, img8].map(
+                (img, i) => (
+                  <img
+                    key={i}
+                    src={img}
+                    alt="Slider"
+                    onClick={() => sliderRef.current.slickNext()}
+                    style={{ cursor: "pointer" }}
+                  />
+                )
+              )}
             </Slider>
           </div>
         </div>
