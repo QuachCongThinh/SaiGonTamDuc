@@ -7,10 +7,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
   <meta name="description" content="Web site created using create-react-app" />
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Phòng Khám Đa Khoa Sài Gòn Tâm Đức",
+      "url": "http://pkdksgtamduc.com/",
+      "logo": "http://pkdksgtamduc.com/Logo.png"
+    }
+    </script>
+
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       const text = "Phòng khám đa khoa Sài Gòn Tâm Đức - Sức khỏe của bạn, trách nhiệm của chúng tôi";
-      const resetText = "Phòng khám đa khoa Sài Gòn Tâm Đức - Sức khỏe của bạn, trách nhiệm của chúng tôi"; 
+      const resetText = "Phòng khám đa khoa Sài Gòn Tâm Đức - Sức khỏe của bạn, trách nhiệm của chúng tôi";
       let position = 0;
 
       function scrollTitle() {
@@ -19,9 +29,9 @@
           position++;
           setTimeout(scrollTitle, 150);
         } else {
-          document.title = resetText; 
+          document.title = resetText;
           position = 0;
-          setTimeout(scrollTitle, 1000); 
+          setTimeout(scrollTitle, 1000);
         }
       }
 
