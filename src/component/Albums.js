@@ -14,10 +14,9 @@ const Albums = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     fade: true,
-    speed: 1000,
+    speed: 600,
     autoplay: true,
-    autoplaySpeed: 3000,
-    arrows: false,
+    autoplaySpeed: 2700,
   };
 
   return (
