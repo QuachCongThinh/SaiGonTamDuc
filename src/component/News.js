@@ -5,6 +5,7 @@ import new1 from "../assets/new1_35_11zon.webp";
 import new2 from "../assets/new2_36_11zon.webp";
 import new3 from "../assets/new3_37_11zon.webp";
 import new4 from "../assets/new4_38_11zon.webp";
+import new5 from "../assets/new5.jpg";
 
 const News = () => {
   var settings = {
@@ -44,6 +45,34 @@ const News = () => {
           <div className="box-wrapper">
             <div className="box-item">
               <div className="thumb-new">
+                <img src={new5} alt="New" />
+              </div>
+              <div className="text-new">
+                <h2>
+                  NỘI SOI TIÊU HÓA KHÔNG ĐAU – PHÁT HIỆN SỚM, PHÒNG NGỪA UNG THƯ
+                  SỚM!
+                </h2>
+                <p>
+                  "Dịch vụ nội soi tại PKĐK Sài Gòn Tâm Đức áp dụng phương pháp
+                  nội soi KHÔNG ĐAU, thực hiện trong thời gian ngắn, mang lại
+                  trải nghiệm an toàn, dễ chịu nhất cho bệnh nhân."
+                </p>
+              </div>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.facebook.com/permalink.php?story_fbid=pfbid02ATSGatssv8rAJAMgKQRpsckEzXaDGVDhsZvQQi6zbaixtznz2tmppjaigR8m3vr2l&id=61560007596752"
+                onClick={(e) => e.stopPropagation()}
+              >
+                <div className="overlay">
+                  <span className="overlay-text">Xem chi tiết</span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div className="box-wrapper">
+            <div className="box-item">
+              <div className="thumb-new">
                 <img src={new1} alt="New" />
               </div>
               <div className="text-new">
@@ -57,7 +86,8 @@ const News = () => {
                 </p>
               </div>
               <a
-                target="_blank" rel="noreferrer"
+                target="_blank"
+                rel="noreferrer"
                 href="https://www.facebook.com/permalink.php?story_fbid=pfbid08TexGULJf7Me6GRPiR7A826fdHB921NynTiec54TBfjRj5xcRiZFvErPyXs9oz9ul&id=61560007596752"
                 onClick={(e) => e.stopPropagation()}
               >
@@ -82,7 +112,8 @@ const News = () => {
                 </p>
               </div>
               <a
-                target="_blank" rel="noreferrer"
+                target="_blank"
+                rel="noreferrer"
                 href="https://www.facebook.com/permalink.php?story_fbid=pfbid0ZKtDauN2hrPUs88YEPLBXSqpb674mo5mMSxVwgXaJyg31Ycg9gbAond6uUAF31vJl&id=61560007596752"
                 onClick={(e) => e.stopPropagation()}
               >
@@ -107,7 +138,8 @@ const News = () => {
                 </p>
               </div>
               <a
-                target="_blank" rel="noreferrer"
+                target="_blank"
+                rel="noreferrer"
                 href="https://www.facebook.com/permalink.php?story_fbid=pfbid0ZKtDauN2hrPUs88YEPLBXSqpb674mo5mMSxVwgXaJyg31Ycg9gbAond6uUAF31vJl&id=61560007596752"
                 onClick={(e) => e.stopPropagation()}
               >
@@ -136,7 +168,8 @@ const News = () => {
                 </p>
               </div>
               <a
-                target="_blank" rel="noreferrer"
+                target="_blank"
+                rel="noreferrer"
                 href="https://www.facebook.com/permalink.php?story_fbid=pfbid02J96woAXVyNv33X5A4ao3PJCs8vvsikR831MV3uigrq9mH8KbshqtuMPqPVag6P4Xl&id=61560007596752"
                 onClick={(e) => e.stopPropagation()}
               >
