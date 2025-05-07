@@ -6,6 +6,7 @@ import new2 from "../assets/new2_36_11zon.webp";
 import new3 from "../assets/new3_37_11zon.webp";
 import new4 from "../assets/new4_38_11zon.webp";
 import new5 from "../assets/new5.jpg";
+import TBTD from "../assets/TBTD.jpg";
 
 const News = () => {
   var settings = {
@@ -42,6 +43,29 @@ const News = () => {
       <h1>Tin tức cập nhật mới nhất</h1>
       <div className="box-news">
         <Slider {...settings}>
+          <div className="box-wrapper">
+            <div className="box-item">
+              <div className="thumb-new">
+                <img src={TBTD} alt="New" />
+              </div>
+              <div className="text-new">
+                <h2>THÔNG BÁO TUYỂN DỤNG</h2>
+                <p>
+                  "Phục hồi chức năng - vật lý trị li"
+                </p>
+              </div>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.facebook.com/permalink.php?story_fbid=pfbid0NmvD5pL4MbYeebXGkhKa5G8cCTzbdwPr83EmtSx7Jq93LqFya6UcURJ4bcbkYEybl&id=61560007596752"
+                onClick={(e) => e.stopPropagation()}
+              >
+                <div className="overlay">
+                  <span className="overlay-text">Xem chi tiết</span>
+                </div>
+              </a>
+            </div>
+          </div>
           <div className="box-wrapper">
             <div className="box-item">
               <div className="thumb-new">
